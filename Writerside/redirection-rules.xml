@@ -10,4 +10,32 @@
         <description>Created after removal of "Hello Nahlun!" from Instance Name</description>
         <accepts>Hello-Nahlun.html</accepts>
     </rule>
+    <rule id="2b8afaba">
+        <description>Created after removal of "Empty MD Topic" from Instance Name</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
+    <rule id="7088b8f6">
+        <description><![CDATA[Created after removal of "<このガイドについて.md>" from Instance Name]]></description>
+        <accepts>このガイドについて.html</accepts>
+    </rule>
+    <rule id="1148cb01">
+        <description>Created after removal of "Nahlunctl" from Instance Name</description>
+        <accepts>Nahlunctl.html</accepts>
+    </rule>
+    <rule id="552071d0">
+        <description>Created after removal of "インストール-nd" from Instance Name</description>
+        <accepts>インストール-nd.html</accepts>
+    </rule>
+    <rule id="16795dac">
+        <description>Created after removal of "インストール-nd" from Instance Name</description>
+        <accepts>インストール.html</accepts>
+    </rule>
+    <rule id="4c1367ce">
+        <description>Created after removal of "インストール" from Instance Name</description>
+        <accepts>インストール-nl.html</accepts>
+    </rule>
+    <rule id="42c97a55">
+        <description>Created after removal of "インストール" from Instance Name</description>
+        <accepts>インストール-nd.html</accepts>
+    </rule>
 </rules>
