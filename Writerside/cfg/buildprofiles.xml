@@ -3,7 +3,10 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables>
+        <custom-favicons>favicon.svg</custom-favicons>
+        <header-logo>favicon.svg</header-logo>
+    </variables>
     <build-profile instance="in">
         <variables>
             <noindex-content>true</noindex-content>
