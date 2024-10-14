@@ -38,4 +38,8 @@
         <description>Created after removal of "インストール" from Instance Name</description>
         <accepts>インストール-nd.html</accepts>
     </rule>
+    <rule id="13485811">
+        <description>Created after removal of "DECK.GLのセットアップ" from Instance Name</description>
+        <accepts>DECK-GLのセットアップ.html</accepts>
+    </rule>
 </rules>
