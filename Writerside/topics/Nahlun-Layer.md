@@ -50,7 +50,38 @@ Nahlun Layerは、Nahlundからデータを受け取り、3D地図上に河川�
 
 <tabs>
     <tab title="React">
-        comming soon...
+<code-block>
+import {DeckGL} from "@deck.gl/react";
+import {useRef} from "react";
+import {NahlunLayer, NahlunLayerData} from "@azishio/nahlun-layer";
+
+const dataHost = "localhost:3001"
+const updateNotificationHost = "localhost:3002"
+
+function App() {
+
+    const nahlunData = useRef(new NahlunLayerData(dataHost, updateNotificationHost));
+
+    const layer = new NahlunLayer({
+        data: nahlunData.current,
+    });
+
+    return (
+        <DeckGL
+            initialViewState={
+                {
+                    longitude: 139.0192649,
+                    latitude: 36.486692,
+                    zoom: 15
+                }
+            }
+            controller
+            layers={[layer]}
+        >
+        </DeckGL>
+    );
+}
+</code-block>
     </tab>
     <tab title="JavaScript">
         comming soon...

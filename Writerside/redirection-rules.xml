@@ -42,4 +42,12 @@
         <description>Created after removal of "DECK.GLのセットアップ" from Instance Name</description>
         <accepts>DECK-GLのセットアップ.html</accepts>
     </rule>
+    <rule id="2ba2352b">
+        <description>Created after removal of "カスタム3Dモデルの追加" from Nahlun</description>
+        <accepts>カスタム3Dモデルの追加.html</accepts>
+    </rule>
+    <rule id="1ffdee83">
+        <description>Created after removal of "Webアプリケーションを公開する際の注意点" from Nahlun</description>
+        <accepts>Webアプリケーションを公開する際の注意点.html</accepts>
+    </rule>
 </rules>
